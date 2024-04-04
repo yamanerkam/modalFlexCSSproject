@@ -8,10 +8,12 @@ body {
 
 
 .modal {
-
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around;
+    flex-wrap: wrap;*/
     margin: 10px;
-    width: 400px;
+    width: 350px;
     border: 1 px solid black;
     border-radius: 20px;
     background-color: white;
@@ -36,5 +38,10 @@ body {
     margin-top: 10px;
     margin-right: 10px;
     padding: 20px;
-    float: right;
+    display: flex;
+    justify-content: end;
+}
+
+.btn {
+    margin: 10px;
 }
